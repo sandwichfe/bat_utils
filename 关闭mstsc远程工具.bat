@@ -30,8 +30,6 @@ del connect.txt
 
 del temp.txt
 
-del rdp-tcp#%ret%
+tscon rdp-tcp#%ret% /dest:console
 
-rem tscon rdp-tcp#%ret% /dest:console
-
-pause>nul
+rem pause>nul
